@@ -30,7 +30,7 @@ Anime-Details is a web application that allows users to get information about an
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/Anime-Details.git
+   git clone https://github.com/Noumannomi123/Anime-Details
 2. cd Anime-Details
 3. run `npm install`
 4. run `node index.js`
