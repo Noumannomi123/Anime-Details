@@ -1,6 +1,6 @@
 # Anime-Details
 
-Anime-Details is a web application that allows users to get information about any anime by providing a reference ID or by retrieving random anime details from MyAnimeList.net.
+Anime-Details is a web application that allows users to get information about any anime by providing a reference ID or by retrieving random anime details from MyAnimeList.net. This project uses `Jikan API` to make requests to the endpoints. Link: [Jikan API](https://docs.api.jikan.moe/)
 
 ## Features
 - Retrieve detailed information about anime series, including the number of episodes, synopsis, and more.
