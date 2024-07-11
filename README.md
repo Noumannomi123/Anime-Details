@@ -22,6 +22,14 @@ Anime-Details is a web application that allows users to get information about an
 - **CSS**
 - **Bootstrap**
 
+## Screenshots
+
+### Screenshot 1
+![Screenshot 1](Screenshots/2.png)
+
+### Screenshot 2
+![Screenshot 2](Screenshots/1.png)
+
 ## Getting Started
 
 ### Prerequisites
