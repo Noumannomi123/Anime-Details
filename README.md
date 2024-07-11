@@ -31,7 +31,7 @@ Anime-Details is a web application that allows users to get information about an
 1. Clone the repository:
    ```sh
    git clone https://github.com/Noumannomi123/Anime-Details
-2. cd Anime-Details
+2. run cd Anime-Details
 3. run `npm install`
 4. run `node index.js`
 5. The application will start running on localhost port `3000`.
