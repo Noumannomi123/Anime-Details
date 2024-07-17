@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     min-height: 50vh;
     background-color: #1D1720;
 }
@@ -65,7 +65,7 @@
 li, a, .visit{
   font-family: serif;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.35em;
 }
 
 p{
@@ -124,4 +124,37 @@ h2{
 .contactButton:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em #5566c2;
+}
+
+.lower-half{
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+
+@media (max-width: 600px){
+  .lower-half{
+    font-size: 1rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+  }
+  a{
+    font-size: 1rem;
+  }
+  .box2{
+    flex-direction: column;
+    min-height: 20vh;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+  }
+}
+#details, #rating{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
